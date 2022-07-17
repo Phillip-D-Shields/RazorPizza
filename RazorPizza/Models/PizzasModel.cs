@@ -12,5 +12,6 @@
         public bool Pineapple { get; set; }
         public bool Sausage { get; set; }
         public bool GreenPeppers { get; set; }
+        public int FinalPrice { get; internal set; }
     }
 }
